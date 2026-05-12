@@ -78,7 +78,7 @@ The following screenshots provide visual evidence of the completedThe following 
 ### Comparing All Three Methods
 
 
-![Comparing All Three Methods](/sequence-model-project/screenshots/Comparing-All-Three-Methods.png)
+![Comparing All Three Methods](/screenshots/Comparing-All-Three-Methods.png)
 
 ### Transformer Model Comparison
 
