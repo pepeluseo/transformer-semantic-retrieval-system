@@ -7,29 +7,34 @@ This project will guide you through building and comparing different retrieval s
 ## Project Structure
 
 ```
-project/starter/
-├── src/                                       # Core retrieval modules
-│   ├── data_loader.py                        # BeIR/Natural Questions dataset handler
-│   ├── bm25_retriever.py                     # Traditional keyword-based retrieval
-│   ├── word2vec_retriever.py                 # Static embedding retrieval
-│   ├── transformer_retriever.py              # Semantic transformer retrieval
-│   ├── evaluator.py                          # IR metrics calculation
-│   └── utils.py                              # Utility functions
-├── tests/                                     # Unit test suite for validation
-│   ├── test_bm25_retriever.py                # BM25 retriever tests
-│   ├── test_transformer_retriever.py         # Transformer retriever tests  
-│   ├── test_word2vec_retriever.py            # Word2Vec retriever tests
-│   └── test_evaluator.py                     # IR metrics evaluator tests
-├── streamlit/                                 # Interactive RAG demo application
-│   ├── app.py                                # Streamlit comparison interface
-│   ├── rag_system.py                         # RAG implementation with OpenAI
-│   ├── demo_data.py                          # TechFlow AI demo corpus
-│   └── .env.example                          # Environment variables template
+PROJECT/sequence-model-project/
+├── src/                                            # Core retrieval modules
+│   ├── data_loader.py                              # BeIR/Natural Questions dataset handler
+│   ├── bm25_retriever.py                           # Traditional keyword-based retrieval
+│   ├── word2vec_retriever.py                       # Static embedding retrieval
+│   ├── transformer_retriever.py                    # Semantic transformer retrieval
+│   ├── evaluator.py                                # IR metrics calculation
+│   └── utils.py                                    # Utility functions
+├── tests/                                          # Unit test suite for validation
+│   ├── test_bm25_retriever.py                      # BM25 retriever tests
+│   ├── test_transformer_retriever.py               # Transformer retriever tests  
+│   ├── test_word2vec_retriever.py                  # Word2Vec retriever tests
+│   └── test_evaluator.py                           # IR metrics evaluator tests
+├── streamlit/                                      # Interactive RAG demo application
+│   ├── app.py                                      # Streamlit comparison interface
+│   ├── rag_system.py                               # RAG implementation with OpenAI
+│   ├── demo_data.py                                # TechFlow AI demo corpus
+│   └── .env.example                                # Environment variables template
 ├── notebooks/
-│   └── unified_retrieval_comparison.ipynb    # Main analysis notebook
-├── dataset/                                   # Natural Questions test dataset
-├── .venv/                                     # Python virtual environment
-└── requirements.txt                           # All dependencies
+│   └── unified_retrieval_comparison.ipynb          # Main analysis notebook
+├── dataset/                                        # Natural Questions test dataset
+├── screenshots/                                    # Screenshots
+│   ├── Comparing All Three Methods.png             # BM25, Word2Vec, and Transformer comparison             
+│   ├── Transformer Model Comparison Analysis.png   # Comparison of transformer embedding models
+│   ├── Transformer Model Comparison.png            # Final transformer performance
+│   └── .env.example 
+├── .venv/                                          # Python virtual environment
+└── requirements.txt                                # All dependencies
 ```
 
 ## Quick Start Guide
@@ -65,6 +70,28 @@ python tests/test_transformer_retriever.py  # Transformer semantic search
 # Final validation - all tests should pass when complete
 python -m pytest tests/ -v
 ```
+
+## Results Screenshots
+
+The following screenshots provide visual evidence of the completedThe following screenshots provide visual evidence of the completed retrieval analysis.
+
+### Comparing All Three Methods
+
+
+![Comparing All Three Methods](/sequence-model-project/screenshots/Comparing-All-Three-Methods.png)
+
+### Transformer Model Comparison
+
+![Transformer Model Comparison](/sequence-model-project/screenshots/Transformer-Model-Comparison.png)
+
+
+
+### Transformer Model Comparison Analysis
+
+
+![Transformer Model Comparison Analysis](sequence-model-project/screenshots/Transformer-Model-Comparison-Analysis.png)
+
+
 
 **Expected progression:**
 - **Initially**: Many tests fail with helpful error messages
