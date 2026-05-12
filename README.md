@@ -82,14 +82,14 @@ The following screenshots provide visual evidence of the completedThe following 
 
 ### Transformer Model Comparison
 
-![Transformer Model Comparison](/sequence-model-project/screenshots/Transformer-Model-Comparison.png)
+![Transformer Model Comparison](/screenshots/Transformer-Model-Comparison.png)
 
 
 
 ### Transformer Model Comparison Analysis
 
 
-![Transformer Model Comparison Analysis](sequence-model-project/screenshots/Transformer-Model-Comparison-Analysis.png)
+![Transformer Model Comparison Analysis](/screenshots/Transformer-Model-Comparison-Analysis.png)
 
 
 
