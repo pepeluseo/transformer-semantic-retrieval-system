@@ -1,0 +1,39 @@
+{
+  "component": "word2vec_retriever",
+  "timestamp": "2025-11-15T11:19:09.248111",
+  "total_tests": 5,
+  "passed_tests": 1,
+  "failed_tests": 4,
+  "test_details": [
+    {
+      "test_name": "test_build_index_implementation",
+      "passed": false,
+      "error_message": "unexpectedly None : Word2Vec model is None - did you implement Word2Vec training?",
+      "timestamp": "2025-11-15T11:19:09.246666"
+    },
+    {
+      "test_name": "test_initialization",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2025-11-15T11:19:09.247292"
+    },
+    {
+      "test_name": "test_multiple_queries_and_k_parameter",
+      "passed": false,
+      "error_message": "Index not built. Call build_index() first.",
+      "timestamp": "2025-11-15T11:19:09.247328"
+    },
+    {
+      "test_name": "test_retrieve_implementation",
+      "passed": false,
+      "error_message": "Index not built. Call build_index() first.",
+      "timestamp": "2025-11-15T11:19:09.247833"
+    },
+    {
+      "test_name": "test_text_to_vector_implementation",
+      "passed": false,
+      "error_message": "unexpectedly None : Cannot test text-to-vector - Word2Vec model not built. Complete build_index first.",
+      "timestamp": "2025-11-15T11:19:09.247970"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "component": "bm25_retriever",
+  "timestamp": "2025-11-15T11:19:06.293071",
+  "total_tests": 5,
+  "passed_tests": 1,
+  "failed_tests": 4,
+  "test_details": [
+    {
+      "test_name": "test_build_index_implementation",
+      "passed": false,
+      "error_message": "unexpectedly None : BM25 index is None - did you implement the BM25Okapi creation?",
+      "timestamp": "2025-11-15T11:19:06.292038"
+    },
+    {
+      "test_name": "test_initialization",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2025-11-15T11:19:06.292466"
+    },
+    {
+      "test_name": "test_k_parameter_functionality",
+      "passed": false,
+      "error_message": "Index not built. Call build_index() first.",
+      "timestamp": "2025-11-15T11:19:06.292493"
+    },
+    {
+      "test_name": "test_multiple_queries",
+      "passed": false,
+      "error_message": "Index not built. Call build_index() first.",
+      "timestamp": "2025-11-15T11:19:06.292817"
+    },
+    {
+      "test_name": "test_retrieve_implementation",
+      "passed": false,
+      "error_message": "Index not built. Call build_index() first.",
+      "timestamp": "2025-11-15T11:19:06.292922"
+    }
+  ]
+}

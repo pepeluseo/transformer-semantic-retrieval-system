@@ -1,0 +1,39 @@
+{
+  "component": "evaluator",
+  "timestamp": "2025-11-15T11:19:06.293770",
+  "total_tests": 5,
+  "passed_tests": 1,
+  "failed_tests": 4,
+  "test_details": [
+    {
+      "test_name": "test_complete_evaluation_pipeline",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2025-11-15T11:19:06.293265"
+    },
+    {
+      "test_name": "test_evaluation_with_different_scenarios",
+      "passed": false,
+      "error_message": "0.0 != 1.0 : Should find all relevant docs in top 5",
+      "timestamp": "2025-11-15T11:19:06.293291"
+    },
+    {
+      "test_name": "test_mrr_implementation",
+      "passed": false,
+      "error_message": "0.0 != 1.0 within 3 places (1.0 difference) : Expected MRR=1.0000, got 0.0000",
+      "timestamp": "2025-11-15T11:19:06.293435"
+    },
+    {
+      "test_name": "test_precision_at_k_implementation",
+      "passed": false,
+      "error_message": "0.0 != 0.6666666666666666 within 3 places (0.6666666666666666 difference) : Expected precision@3=0.6667, got 0.0000",
+      "timestamp": "2025-11-15T11:19:06.293555"
+    },
+    {
+      "test_name": "test_recall_at_k_implementation",
+      "passed": false,
+      "error_message": "0.0 != 0.6666666666666666 within 3 places (0.6666666666666666 difference) : Expected recall@3=0.6667, got 0.0000",
+      "timestamp": "2025-11-15T11:19:06.293667"
+    }
+  ]
+}

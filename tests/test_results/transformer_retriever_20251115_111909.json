@@ -1,0 +1,39 @@
+{
+  "component": "transformer_retriever",
+  "timestamp": "2025-11-15T11:19:09.246193",
+  "total_tests": 5,
+  "passed_tests": 1,
+  "failed_tests": 4,
+  "test_details": [
+    {
+      "test_name": "test_build_index_implementation",
+      "passed": false,
+      "error_message": "unexpectedly None : Corpus embeddings is None - did you implement corpus encoding in build_index()?",
+      "timestamp": "2025-11-15T11:19:07.094509"
+    },
+    {
+      "test_name": "test_initialization",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2025-11-15T11:19:07.610308"
+    },
+    {
+      "test_name": "test_multiple_queries_and_k_values",
+      "passed": false,
+      "error_message": "Index not built. Call build_index() first.",
+      "timestamp": "2025-11-15T11:19:08.087873"
+    },
+    {
+      "test_name": "test_retrieve_implementation",
+      "passed": false,
+      "error_message": "Index not built. Call build_index() first.",
+      "timestamp": "2025-11-15T11:19:08.749411"
+    },
+    {
+      "test_name": "test_semantic_similarity_quality",
+      "passed": false,
+      "error_message": "Index not built. Call build_index() first.",
+      "timestamp": "2025-11-15T11:19:09.245772"
+    }
+  ]
+}
